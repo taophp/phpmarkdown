@@ -35,7 +35,7 @@ Of course, you may need some dev tools like CMake, G++ or php5-dev pakage.
 	$ git clone https://github.com/SuperV1234/DiscountCpp.git
 	$ cd DiscountCpp
 
-**WARNING** Here you must edit the file CmakeLists.txt and change the line :
+**!! WARNING !!** Here you must edit the file CmakeLists.txt and change the line :
 
 	add_library(HEADER_ONLY_TARGET STATIC ${SRC_LIST})
 
@@ -70,10 +70,10 @@ should output :
 
 This extensin adds four functions to PHP :
 
-	* `getHTMLFromMarkdownString(string mdstring)`: translate mdstring from markdown to HTML and return it
-	* `getHTMLFromMarkdownFile(string mdfile)`: translate the content of mdfile from markdown to HTML and return it
-	* `writeHTMLFileFromMarkdownString(string htmlfile, string mdstring)`: translate mdstring from markdown to HTML and write it in htmlfile, return void
-	* `writeHTMLFileFromMarkdownFile(string htmlfile, string mdfile)`: translate the content of mdfile from markdown to HTML and write it in htmlfile, return void
+* `getHTMLFromMarkdownString(string mdstring)`: translate mdstring from markdown to HTML and return it
+* `getHTMLFromMarkdownFile(string mdfile)`: translate the content of mdfile from markdown to HTML and return it
+* `writeHTMLFileFromMarkdownString(string htmlfile, string mdstring)`: translate mdstring from markdown to HTML and write it in htmlfile, return void
+* `writeHTMLFileFromMarkdownFile(string htmlfile, string mdfile)`: translate the content of mdfile from markdown to HTML and write it in htmlfile, return void
 
 ## Example
 
